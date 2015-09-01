@@ -6,20 +6,21 @@
 <body>
     <header>
       <h1>GO FOR THE GOLD</h1>
-      <% include ../partials/_header %>
     </header>
 
     <main>
       <div class= 'topTitle'>
-          <h2>You're a speed machine!</h2>
-          <div>
-          <% html %>
-          </div>
+        <h3>You're a speed machine!</h3>
+          <ul class='userStats'>
+          <li><%= user.name %></li>
+          <li><%= user.country %></li>
+          <li><%= user.time %></li>
+          </ul>
         <h3>Your Competition</h3>
-          <ul id='top3'>
+          <ul id='top3'>      
             <% runners.forEach(function(runner) { %>
               <div class='runnerCol' style="float:left; margin:10px;width:30%">
-              <h2># <%= runner.place %></h2>        
+              <h2><%= runner.place %></h2>        
               <li>name: <%= runner.name %></li>            
               <li>time: <%= runner.time %></li>            
               <li>country: <%= runner.hometown %></li>                    

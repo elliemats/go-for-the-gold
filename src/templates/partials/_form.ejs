@@ -1,12 +1,23 @@
-<form id="form" name="form" method="post">
-  <label>Your Name:
-    <input type='text' name='name' id='name' placeholder='type your name here' />
-  </label><br>
-  <label>What country are you from?:
-    <input type='text' name='country' id='country' placeholder='type your country here' />
-  </label><br>
-  <label>What was your time?:
-    <input type='number' name='time' id='time' placeholder='hh:mm:ss' />
-  </label><br>
-  <input type="submit" name="submit" id="submit" />
+
+<form class="form" name="form" method="post">
+  <ul>
+    <li>
+      <label for='name'>Name</label>
+      <input type='text' name='name' id='name'>
+      <span>Enter your full name here</span>
+    </li>
+    <li>
+      <label for='country'>Country</label>
+      <input type='text' name='country' id='country'>
+      <span>Enter the name of your country</span>
+    </li>
+    <li>
+      <label for='time'>Race Time</label>
+      <input type='text' name='time' id='time'>
+      <span>Enter your marathon PB (hh:mm:ss)</span>
+    </li>
+    <li>            
+      <input type="submit" value="Let's Race!">
+    </li>
+</ul>
 </form>

@@ -2,29 +2,26 @@
 
 var express = require('express'),
  bodyParser = require('body-parser'), //figure out how to use this in post req
-   marathon = require('./data/marathon.json');
+   marathon = require('./data/marathon.json'),
+     jquery = require('jquery');
 
 var app = express();
 app.use(bodyParser());
 
+app.use('/static', express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/templates/views');
 
 app.get('/', function(req, res){
-    var runners = marathon;
-
-    res.render('index', {
-      runners: runners,
-    });
+  res.render('index');
 });
 
-// app.get("/marathon", function (req,res) {  
-//   res.send(marathon);
-//   console.log(marathon[0]);
-// });
+app.get("/marathon", function (req,res) {  
+  var runners = marathon;
+  res.render('marathon', { runners : runners });
+});
 
 app.post('/', function (req,res) {
-
 var user = {
   name: req.body.name,
   country: req.body.country,
@@ -32,6 +29,7 @@ var user = {
 };
 
 var makeHTML = function (obj) {
+  var runners = marathon;
   var msg = '<ul>';
   for(var key in obj) {
     msg += '<li>' + obj[key] + '</li>'
@@ -39,8 +37,8 @@ var makeHTML = function (obj) {
   return msg + '</ul>';
 }
 var html = makeHTML(user);
-
-  res.send(html);
+res.render('marathon', {runners: marathon, user: user});
+  // res.send(html);
 });
 
 app.listen(3000, function() {
