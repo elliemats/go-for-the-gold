@@ -5,7 +5,7 @@ var express = require('express'),
    marathon = require('./data/marathon.json');
 
 var app = express();
-app.use(bodyParser.json());
+app.use(bodyParser());
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/templates/views');
@@ -18,16 +18,30 @@ app.get('/', function(req, res){
     });
 });
 
-app.post('/', function (req,res) {
-  
-  var name = req.body.name;
-  var country = req.body.country;
-  var time = req.body.time;
+// app.get("/marathon", function (req,res) {  
+//   res.send(marathon);
+//   console.log(marathon[0]);
+// });
 
-  var html = '<h1>' + name + '</h1>';
-  console.log(html);
-  res.send(req.body);
-})
+app.post('/', function (req,res) {
+
+var user = {
+  name: req.body.name,
+  country: req.body.country,
+  time: req.body.time
+};
+
+var makeHTML = function (obj) {
+  var msg = '<ul>';
+  for(var key in obj) {
+    msg += '<li>' + obj[key] + '</li>'
+  }
+  return msg + '</ul>';
+}
+var html = makeHTML(user);
+
+  res.send(html);
+});
 
 app.listen(3000, function() {
   console.log("The frontend server is running on port 3000!");
