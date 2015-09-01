@@ -1,24 +1,67 @@
+
+
 body {
   background-color: white;
-}
-tbody {
-  float: left;
-  position: absolute;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 50px;
-  border-spacing: 10px;
-  background-color: white;
-    }
-
-td {
-  border: 1px solid red;
-  padding: 10px;
-  background-color: yellow;
   text-align: center;
 }
+
+tbody {
+  height: 350px;
+  width: 900px;
+  float: left;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  border-radius: 1%;
+  background-color: white;
+  padding-top: 20px;
+}
+
+td {
+  padding: 20px;
+  border: 40px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+}
+
+table tr td {
+  margin-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
 img {
 width: 100px;
 height: 100px;
 border-radius: 50%;
 }
+
+.places td {
+  font-family: 'Old Standard TT', serif;
+  font-size: 20px;
+  margin: 50px;
+}
+.names td {
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+}
+.countries td {
+
+  }
+
+.times td {
+  font-family: 'Old Standard TT', serif;
+  text-shadow: 2px 1px 0px #fff, 3px 2px 0px rgba(0,0,0,0.15);
+  font-size: 28px;
+
+}
+
+.empty {
+  padding: 0px;
+  width: 5px;
+}
+
+

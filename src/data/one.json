@@ -1,0 +1,21 @@
+
+[
+  {
+    "place":"1st",
+    "time":"9s:58ms",
+    "name":"Usain Bolt",
+    "hometown":"Jamaica"
+  },
+  {
+    "place":"2nd",
+    "time":"9s:63ms",
+    "name":"Usain Bolt",
+    "hometown":"Jamaica"
+  },
+  {
+    "place":"3rd",
+    "time":"9s:69ms",
+    "name":"Usain Bolt",
+    "hometown":"Jamaica"
+  }
+  ]

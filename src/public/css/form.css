@@ -1,10 +1,11 @@
-#userForm {
-    background-image: url("http://fineart.laforetvisuals.com/media/original/Laforet%20Track%20Olympics%20Tilt-Shift%2001.jpg");
+body {
+background-image: url("http://fineart.laforetvisuals.com/media/original/Laforet%20Track%20Olympics%20Tilt-Shift%2001.jpg");
     background-size: cover;
     width:90%;
     padding: 50px;
     margin-left: 25px;
     margin-right: 25px;
+    padding-top: 10px;
     display:  block;
 }
 .form{
@@ -13,7 +14,7 @@
     background:#fff;
     border-radius:2px;
     padding:20px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Lato', sans-serif;
 }
 .form h1{
     display: block;
@@ -63,11 +64,11 @@
     display: block;
     outline: none;
     border: none;
-    height: 25px;
+    height: 30px;
     line-height: 25px;
-    font-size: 16px;
-    padding-left: 20px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    padding-left: 45px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .form li > span {
