@@ -1,0 +1,27 @@
+
+[
+  {
+    "place":"1st",
+    "time":"2:02:57",
+    "name":"Dennis Kimetto",
+    "hometown":"Kenya",
+    "location":"Berlin",
+    "date":"9/28/14"
+  },
+  {
+    "place":"2nd",
+    "time":"2:03:02",
+    "name":"Geoffrey Mutai",
+    "hometown":"Kenya",
+    "location":"Boston",
+    "date":"4/18/11"
+  },
+  {
+    "place":"3rd",
+    "time":"2:03:06",
+    "name":"Moses Mosop",
+    "hometown":"Kenya",
+    "location":"Boston",
+    "date":"4/18/11"
+  }
+  ]

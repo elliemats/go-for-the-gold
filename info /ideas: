@@ -1,0 +1,23 @@
+ideas: 
+
+// types of races to include top 3 mens racers:
+// JSON data set for each of these
+
+// 100 m
+// 400 m
+// 1 mile 
+// half-marathon 
+// full marathon
+
+user inputs to gather:
+type of race
+name
+hometown 
+race loc
+date of race 
+
+
+future ideas:
+include womens times
+include loading screen with fun little running sayings... 'keep pushing!' 'hammies are burning', 'you're rounding the last bend!', 'the crowd is roaring!' --results 
+include d3 graphs of comparisons 

@@ -1,0 +1,34 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/_head %>
+</head>
+<body>
+    <header>
+      <h1>GO FOR THE GOLD</h1>
+      <% include ../partials/_header %>
+    </header>
+
+    <main>
+      <div class= 'topTitle'>
+          <h2>You're a speed machine!</h2>
+        <h3>Your Competition</h3>
+          <ul id='top3'>
+            <% runners.forEach(function(runner) { %>
+              <div class='runnerCol' style="float:left; margin:10px;width:30%">
+              <h2># <%= runner.place %></h2>        
+              <li>name: <%= runner.name %></li>            
+              <li>time: <%= runner.time %></li>            
+              <li>country: <%= runner.hometown %></li>                    
+              <li>date: <%= runner.date %></li> 
+              </div>           
+            <% }); %>
+          </ul>
+        </div>
+    </main>
+
+    <footer>
+      <% include ../partials/_footer %>
+    </footer>
+</body>
+</html>  
