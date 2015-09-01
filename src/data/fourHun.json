@@ -1,0 +1,20 @@
+[
+  {
+    "place":"1st",
+    "time":"43.57s",
+    "name":"Michael Johnson",
+    "hometown":"United States"
+  },
+  {
+    "place":"2nd",
+    "time":"43.29s",
+    "name":"Harry Reynolds",
+    "hometown":"United States"
+  },
+  {
+    "place":"3rd",
+    "time":"43.39s",
+    "name":"Michael Johnson",
+    "hometown":"United States"
+  }
+  ]

@@ -9,26 +9,18 @@
     </header>
 
     <main>
-      <div class= 'topTitle'>
         <h3>You're a speed machine!</h3>
-          <ul class='userStats'>
-          <li><%= user.name %></li>
-          <li><%= user.country %></li>
-          <li><%= user.time %></li>
-          </ul>
-        <h3>Your Competition</h3>
-          <ul id='top3'>      
-            <% runners.forEach(function(runner) { %>
-              <div class='runnerCol' style="float:left; margin:10px;width:30%">
-              <h2><%= runner.place %></h2>        
-              <li>name: <%= runner.name %></li>            
-              <li>time: <%= runner.time %></li>            
-              <li>country: <%= runner.hometown %></li>                    
-              <li>date: <%= runner.date %></li> 
-              </div>           
-            <% }); %>
-          </ul>
-        </div>
+      
+      <table id='table'>
+          <tr>
+            <td> </td>
+            <td><img src="./static/img/ellie_dad.jpg" alt=""></img></td>
+            <td><img src="./static/img/full/0.jpg" alt=""></img></td>
+            <td><img src="./static/img/full/1.jpg" alt=""></img></td>
+            <td><img src="./static/img/full/2.jpg" alt=""></img></td>
+          </tr>
+          <% include ../partials/_tableCont %>
+
     </main>
 
     <footer>

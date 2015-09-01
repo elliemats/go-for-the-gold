@@ -1,0 +1,26 @@
+half.json
+ 1      58:23      Zersenay Tadese                ERI     08.02.82    1      Lisboa                   21.03.2010
+        2      58:31      Zersenay Tadese                ERI     08.02.82    1      Lisboa                   20.03.2011
+        3      58:33      Samuel Wanjiru                 KEN     10.11.86    1      Den Haag                 17.03.2007
+
+[
+  {
+    "place":"1st",
+    "time":"58m 31s",
+    "name":"Zersenay Tadese",
+    "hometown":"Eritrea"
+  },
+  {
+    "place":"2nd",
+    "time":"58m 31s",
+    "name":"Zersenay Tadese ",
+    "hometown":"Eritrea"
+  },
+  {
+    "place":"3rd",
+    "time":"58m 33s",
+    "name":"Samuel Wanjiru",
+    "hometown":"Kenya"
+  }
+  ]
+

@@ -1,7 +1,15 @@
-
+#userForm {
+    background-image: url("http://fineart.laforetvisuals.com/media/original/Laforet%20Track%20Olympics%20Tilt-Shift%2001.jpg");
+    background-size: cover;
+    width:90%;
+    padding: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display:  block;
+}
 .form{
     max-width:400px;
-    margin:50px auto;
+    margin:20px auto;
     background:#fff;
     border-radius:2px;
     padding:20px;
@@ -24,7 +32,7 @@
     display: block;
     padding: 9px;
     border:1px solid #DDDDDD;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-radius: 3px;
 }
 .form li:last-child{
@@ -62,7 +70,7 @@
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.form li > span{
+.form li > span {
     background: #F3F3F3;
     display: block;
     padding: 3px;

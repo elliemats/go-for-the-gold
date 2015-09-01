@@ -2,26 +2,20 @@
 [
   {
     "place":"1st",
-    "time":"2:02:57",
+    "time":"2h:02m:57s",
     "name":"Dennis Kimetto",
-    "hometown":"Kenya",
-    "location":"Berlin",
-    "date":"9/28/14"
+    "hometown":"Kenya"
   },
   {
     "place":"2nd",
-    "time":"2:03:02",
+    "time":"2h:03m:02s",
     "name":"Geoffrey Mutai",
-    "hometown":"Kenya",
-    "location":"Boston",
-    "date":"4/18/11"
+    "hometown":"Kenya"
   },
   {
     "place":"3rd",
-    "time":"2:03:06",
+    "time":"2h:03m:06s",
     "name":"Moses Mosop",
-    "hometown":"Kenya",
-    "location":"Boston",
-    "date":"4/18/11"
+    "hometown":"Kenya"
   }
   ]

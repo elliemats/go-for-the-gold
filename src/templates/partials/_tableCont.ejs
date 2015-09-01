@@ -1,0 +1,34 @@
+          <tr>
+            <td></td>
+            <td></td>
+            <td>1st</td>
+            <td>2nd</td>
+            <td>3rd</td>
+          </tr>
+          <tr>
+            <td>NAME</td>
+            <td><%= user.name %></td>
+            <td><%= runners[0].name %></td>
+            <td><%= runners[1].name %></td>
+            <td><%= runners[2].name %></td>
+          </tr>
+          <tr>
+            <td>COUNTRY</td>
+            <td><%= user.country %></td>
+            <td><%= runners[0].hometown %></td>
+            <td><%= runners[1].hometown %></td>
+            <td><%= runners[2].hometown %></td>
+          </tr>
+          <tr>
+            <td>RECORD</td>
+            <td><%= user.time %></td>
+            <td><%= runners[0].time %></td>
+            <td><%= runners[1].time %></td>
+            <td><%= runners[2].time %></td>
+          </tr>                              
+          <tr class='userStats'>
+          <li><%= user.name %></li>
+          <li><%= user.country %></li>
+          <li><%= user.time %></li>
+          </tr>
+        </table>

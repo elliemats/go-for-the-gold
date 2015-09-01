@@ -2,6 +2,16 @@
 <form class="form" name="form" method="post">
   <ul>
     <li>
+      <label for='race'>Race Type</label>
+      <select class='race' name='race'>
+        <option value="oneHun" selected="oneHun">100-meter</option>
+        <option value="fourHun" selected="fourHun">400-meter</option>
+        <option value="half" selected="half">Half Marathon</option>
+        <option value="mile" selected="mile">1 Mile</option>
+        <option value="marathon" selected="marathon">Full Marathon</option>
+      </select>
+    </li>    
+    <li>
       <label for='name'>Name</label>
       <input type='text' name='name' id='name'>
       <span>Enter your full name here</span>
@@ -14,7 +24,12 @@
     <li>
       <label for='time'>Race Time</label>
       <input type='text' name='time' id='time'>
-      <span>Enter your marathon PB (hh:mm:ss)</span>
+      <span>Enter your marathon PB (h:mm:ss)</span>
+    </li>
+    <li>
+      <label for='file'>Upload a Photo</label>
+      <input type='file' name='file' id='file'>
+      <span>Supported files: jpg, jpeg, png.</span>
     </li>
     <li>            
       <input type="submit" value="Let's Race!">

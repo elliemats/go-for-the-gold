@@ -12,33 +12,33 @@ app.use('/static', express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/templates/views');
 
+
+
+
 app.get('/', function(req, res){
   res.render('index');
 });
 
 app.get("/marathon", function (req,res) {  
-  var runners = marathon;
-  res.render('marathon', { runners : runners });
+  res.render('marathon', { runners : marathon, user: {} });
 });
 
 app.post('/', function (req,res) {
+var athletes;
+
+if(req.body.race === 'marathon') {
+  athletes = marathon;
+  }
+  // make other data sets and load data based on the req.body.race
+console.log(req.body);
 var user = {
   name: req.body.name,
   country: req.body.country,
   time: req.body.time
 };
 
-var makeHTML = function (obj) {
-  var runners = marathon;
-  var msg = '<ul>';
-  for(var key in obj) {
-    msg += '<li>' + obj[key] + '</li>'
-  }
-  return msg + '</ul>';
-}
-var html = makeHTML(user);
-res.render('marathon', {runners: marathon, user: user});
-  // res.send(html);
+res.render('marathon', {runners: athletes, user: user});
+
 });
 
 app.listen(3000, function() {
