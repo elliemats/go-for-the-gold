@@ -27,10 +27,14 @@ Now, navigate to `localhost:3000` in your broswer of choice.
 
 You're up and running! Enjoy! 
 
+![alt tag](https://s3-us-west-2.amazonaws.com/ellie-matsusaka/Screen+Shot+2015-10-10+at+2.25.11+PM.png)
+
+
 ##### Side Note:
 
 I'm sure you would love to upload a **.jpg, .jpeg, .png** of yourself in the race form. Sadly this feature is not fully implemented (but one day it will be). Until then you get to see a hard-coded photo of my dad and me at the San Diego Marathon. Your picture to come soon!
 
+![alt tag](https://s3-us-west-2.amazonaws.com/ellie-matsusaka/Screen+Shot+2015-10-10+at+3.03.08+PM.png)
 ### Background:
 
 This idea blossomed from a fond memory I have from running in the Houston Half Marathon. After a grueling 13 miles, I rounded the last bend into the last stretch with a ROARING crowd in Downtown Houston. 
@@ -40,6 +44,8 @@ Naturally I felt like a celebrity, soaking up the glory of the limelight... unti
 <br>
 
 This funny memory has always inspired me during training and is a great reminder of what any human is capable of with enough hard work! 
+
+![alt tag](https://s3-us-west-2.amazonaws.com/ellie-matsusaka/jufar_tarikufv-houston121.jpg)
 
 To all you runners out there, remember to *always* **Go for the Gold**!
 
