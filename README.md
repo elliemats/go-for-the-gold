@@ -46,7 +46,5 @@ Naturally I felt like a celebrity, soaking up the glory of the limelight... unti
 
 This funny memory has always inspired me during training and is a great reminder of what any human is capable of with enough hard work! 
 
-![alt tag](https://s3-us-west-2.amazonaws.com/ellie-matsusaka/jufar_tarikufv-houston121.jpg)
-
 To all you runners out there, remember to *always* **Go for the Gold**!
 
