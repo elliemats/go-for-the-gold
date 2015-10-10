@@ -1,6 +1,6 @@
 
 # GO FOR THE GOLD
-**Go for the Gold** is a fun web-app to show runners how their PB's (personal records for all you non-runners out there) compare against the top runners in the world. Hopefully **Go for the Gold** will server as a little inspiration on those long morning runs! 
+**Go for the Gold** is a fun web-app to show runners how their PB's (personal records for all you non-runners out there) compare against the top runners in the world. Hopefully **Go for the Gold** will serve as a little inspiration on those long morning runs! 
 
 ## Getting Started:
 
