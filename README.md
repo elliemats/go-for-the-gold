@@ -8,6 +8,7 @@ Setup for Go for the Gold is simple as pie.
 <br>
 
 First, clone down the repo:<br>
+
   `git clone https://github.com/ematsusaka/go-for-the-gold.git && cd go-for-the-gold`
   <br>
 
@@ -17,6 +18,7 @@ Second, install the dependencies:<br>
 
 
 Last but not least, we'll get our server started up:<br>
+
   `cd src && nodemon server.js`
   <br>
   <br>
